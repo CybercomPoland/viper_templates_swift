@@ -40,20 +40,22 @@ class ___FILEBASENAMEASIDENTIFIER___Router {
     private (set) weak var viewController: ___FILEBASENAMEASIDENTIFIER___ViewController?
     private init() {}
     
+    
+    static let storyboardName = "___FILEBASENAMEASIDENTIFIER___"
+    static let viewControllerType = String(describing: ___FILEBASENAMEASIDENTIFIER___ViewController.self)
+    static let storyboardID = viewControllerType + "ID"
+    
     //#MARK: instantiation of module
     static func instantiateModule() -> ___FILEBASENAMEASIDENTIFIER___ViewController? {
         
 //#WARNING after creating new module remember to do following:
         <#todo#>// 1. create storyboard '___FILEBASENAMEASIDENTIFIER___'
-        let storyboardName = "___FILEBASENAMEASIDENTIFIER___"
         guard (Bundle.main.path(forResource: storyboardName, ofType: "storyboardc") != nil) else {
             print("Could not find path for resource \(storyboardName).storyboard")
             return nil
         }
         let storyboard = UIStoryboard(name: storyboardName, bundle: Bundle.main)
         <#todo#>// 2. add ViewController to storyboard and set storyboard ID to ___FILEBASENAMEASIDENTIFIER___ViewControllerID
-        let viewControllerType = String(describing: ___FILEBASENAMEASIDENTIFIER___ViewController.self)
-        let storyboardID = viewControllerType + "ID"
         guard let storyboardValues = storyboard.value(forKey: "identifierToNibNameMap") as? [String : Any], (storyboardValues[storyboardID] != nil) else {
             print("Could not find ViewController with identifier \(storyboardID) in \(storyboardName).storyboard")
             return nil

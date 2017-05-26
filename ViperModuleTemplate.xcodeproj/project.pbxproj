@@ -25,6 +25,7 @@
 		B2771F801ED8461300D7C3C6 /* ___FILEBASENAME___RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2771F751ED8461300D7C3C6 /* ___FILEBASENAME___RouterProtocol.swift */; };
 		B2771F811ED8461300D7C3C6 /* ___FILEBASENAME___ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2771F761ED8461300D7C3C6 /* ___FILEBASENAME___ViewController.swift */; };
 		B2771F821ED8461300D7C3C6 /* ___FILEBASENAME___ViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2771F771ED8461300D7C3C6 /* ___FILEBASENAME___ViewProtocols.swift */; };
+		B2771FCB1ED859D400D7C3C6 /* ___FILEBASENAME___RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2771FCA1ED859D400D7C3C6 /* ___FILEBASENAME___RouterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		B2771F751ED8461300D7C3C6 /* ___FILEBASENAME___RouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___RouterProtocol.swift"; sourceTree = "<group>"; };
 		B2771F761ED8461300D7C3C6 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
 		B2771F771ED8461300D7C3C6 /* ___FILEBASENAME___ViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewProtocols.swift"; sourceTree = "<group>"; };
+		B2771FCA1ED859D400D7C3C6 /* ___FILEBASENAME___RouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___RouterTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				B2771F731ED8461300D7C3C6 /* ___FILEBASENAME___Presenter.swift */,
 				B2771F741ED8461300D7C3C6 /* ___FILEBASENAME___Router.swift */,
 				B2771F761ED8461300D7C3C6 /* ___FILEBASENAME___ViewController.swift */,
+				B2771FCA1ED859D400D7C3C6 /* ___FILEBASENAME___RouterTests.swift */,
 			);
 			path = ViperModule;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2771FCB1ED859D400D7C3C6 /* ___FILEBASENAME___RouterTests.swift in Sources */,
 				B2771F541ED845DD00D7C3C6 /* ViperModuleTemplateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
