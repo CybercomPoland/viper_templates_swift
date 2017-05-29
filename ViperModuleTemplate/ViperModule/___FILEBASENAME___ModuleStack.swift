@@ -79,7 +79,7 @@ class ___FILEBASENAMEASIDENTIFIER___Router {
         return vc
     }
     
-    static func presentVIPER_ModuleFromViewController(source: UIViewController, withDelegate delegate: ___FILEBASENAMEASIDENTIFIER___Delegate?, animated: Bool, completion: (() -> Void)?) {
+    static func presentModule(from source: UIViewController, withDelegate delegate: ___FILEBASENAMEASIDENTIFIER___Delegate?, animated: Bool, completion: (() -> Void)?) {
         guard let vc = ___FILEBASENAMEASIDENTIFIER___Router.instantiateModule() else {
             assertionFailure("Could not instantiate \(___FILEBASENAMEASIDENTIFIER___ViewController.self)")
             return
