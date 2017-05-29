@@ -8,12 +8,16 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewInput {
+class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     var viewOutput: ___FILEBASENAMEASIDENTIFIER___ViewOutput?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         viewOutput?.viewDidLoad()
     }
+    
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewInput {
     
 }

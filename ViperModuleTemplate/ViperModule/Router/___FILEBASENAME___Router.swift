@@ -13,8 +13,12 @@ extension ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___Ro
 
     //MARK: navigation
     
+    func dismiss(animated: Bool, completion: (() -> Void)?) {
+        viewController?.presentedViewController?.dismiss(animated: animated, completion: completion)
+    }
+    
 //    func present_OTHER_VIPER_MODULE_FromViewController(withDelegate delegate: OTHER_VIPER_MODULE_DelegateProtocol?, animated: Bool, completion: (() -> Void)?) {
-//        guard let source = interface else {
+//        guard let source = viewController else {
 //            assertionFailure("VIPER_ViewController not presented")
 //            return
 //        }
