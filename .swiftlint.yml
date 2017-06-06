@@ -1,0 +1,17 @@
+disabled_rules: # rule identifiers to exclude from running
+- line_length
+function_parameter_count:
+- 10 # warning
+- 15 # error
+type_body_length:
+- 1000 # warning
+file_length:
+- 1100 # warning
+function_body_length:
+- 100 # warning
+cyclomatic_complexity:
+- 10 # warning
+opt_in_rules:
+- force_unwrapping
+excluded: #paths
+- Pods/

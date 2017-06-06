@@ -10,10 +10,10 @@ import Foundation
 
 // Interactor to DataManager
 protocol ___FILEBASENAMEASIDENTIFIER___DataManagerInput: class {
-    
+
 }
 
 // DataManager to Interactor
 protocol ___FILEBASENAMEASIDENTIFIER___DataManagerOutput: class {
-    
+
 }

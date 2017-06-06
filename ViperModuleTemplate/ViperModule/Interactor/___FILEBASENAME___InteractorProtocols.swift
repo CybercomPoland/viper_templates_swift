@@ -10,10 +10,10 @@ import Foundation
 
 // Presenter to Interactor
 protocol ___FILEBASENAMEASIDENTIFIER___InteractorInput: class {
-    
+
 }
 
 // Interactor to Presenter
 protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput: class {
-    
+
 }
