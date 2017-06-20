@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___RouterInput {
+extension ___VARIABLE_viperModuleName___Router: ___VARIABLE_viperModuleName___RouterInput {
 
     // MARK: navigation
 

@@ -12,7 +12,7 @@ import XCTest
 <#todo#> //make sure you're importing correct testable target
 @testable import ___PROJECTNAME___
 
-class ___FILEBASENAMEASIDENTIFIER___RouterTests: XCTestCase {
+class ___VARIABLE_viperModuleName___RouterTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
@@ -26,33 +26,33 @@ class ___FILEBASENAMEASIDENTIFIER___RouterTests: XCTestCase {
 
     func testIfStoryboardExists() {
         let path = getPathToStoryboard()
-        XCTAssertNotNil(path, "Failed - could not find path for resource \(___FILEBASENAMEASIDENTIFIER___Router.storyboardName).storyboard")
+        XCTAssertNotNil(path, "Failed - could not find path for resource \(___VARIABLE_viperModuleName___Router.storyboardName).storyboard")
     }
 
     func testIfViewControllerWithProperIDExists() {
-        XCTAssert(viewControllerWithStoryboardIDExists(), "Failed - could not find ViewController with identifier \(___FILEBASENAMEASIDENTIFIER___Router.storyboardID) in \(___FILEBASENAMEASIDENTIFIER___Router.storyboardName).storyboard")
+        XCTAssert(viewControllerWithStoryboardIDExists(), "Failed - could not find ViewController with identifier \(___VARIABLE_viperModuleName___Router.storyboardID) in \(___VARIABLE_viperModuleName___Router.storyboardName).storyboard")
     }
 
     func testIfViewControllerIsOfProperType() {
         var assertion = false
         defer {
-            XCTAssert(assertion, "ViewController with identifier \(___FILEBASENAMEASIDENTIFIER___Router.storyboardID) in \(___FILEBASENAMEASIDENTIFIER___Router.storyboardName).storyboard is not of type \(___FILEBASENAMEASIDENTIFIER___Router.viewControllerType)")
+            XCTAssert(assertion, "ViewController with identifier \(___VARIABLE_viperModuleName___Router.storyboardID) in \(___VARIABLE_viperModuleName___Router.storyboardName).storyboard is not of type \(___VARIABLE_viperModuleName___Router.viewControllerType)")
         }
 
         guard viewControllerWithStoryboardIDExists() else { return }
         let storyboard = getStoryboard()
-        assertion = storyboard.instantiateViewController(withIdentifier: ___FILEBASENAMEASIDENTIFIER___Router.storyboardID) is ___FILEBASENAMEASIDENTIFIER___ViewController
+        assertion = storyboard.instantiateViewController(withIdentifier: ___VARIABLE_viperModuleName___Router.storyboardID) is ___VARIABLE_viperModuleName___ViewController
     }
 
     func getPathToStoryboard() -> String? {
-        return Bundle.main.path(forResource: ___FILEBASENAMEASIDENTIFIER___Router.storyboardName, ofType: "storyboardc")
+        return Bundle.main.path(forResource: ___VARIABLE_viperModuleName___Router.storyboardName, ofType: "storyboardc")
     }
 
     func getStoryboard() -> UIStoryboard {
-        return UIStoryboard(name: ___FILEBASENAMEASIDENTIFIER___Router.storyboardName, bundle: Bundle.main)
+        return UIStoryboard(name: ___VARIABLE_viperModuleName___Router.storyboardName, bundle: Bundle.main)
     }
 
-    func viewControllerWithStoryboardIDExists(storyboardID: String = ___FILEBASENAMEASIDENTIFIER___Router.storyboardID) -> Bool {
+    func viewControllerWithStoryboardIDExists(storyboardID: String = ___VARIABLE_viperModuleName___Router.storyboardID) -> Bool {
         guard getPathToStoryboard() != nil else { return false }
         let storyboard = getStoryboard()
 
@@ -62,8 +62,8 @@ class ___FILEBASENAMEASIDENTIFIER___RouterTests: XCTestCase {
     }
 
     func testViewInitialization() {
-        let viewController = ___FILEBASENAMEASIDENTIFIER___Router.instantiateModule()
-        XCTAssertNotNil(viewController, "Failed with not initialized ___FILEBASENAMEASIDENTIFIER___ViewController")
+        let viewController = ___VARIABLE_viperModuleName___Router.instantiateModule()
+        XCTAssertNotNil(viewController, "Failed with not initialized ___VARIABLE_viperModuleName___ViewController")
     }
     func testExample() {
         // This is an example of a functional test case.
