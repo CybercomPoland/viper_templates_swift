@@ -1,5 +1,6 @@
 disabled_rules: # rule identifiers to exclude from running
 - line_length
+- type_name
 function_parameter_count:
 - 10 # warning
 - 15 # error

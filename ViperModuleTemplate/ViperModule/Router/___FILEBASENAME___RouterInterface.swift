@@ -9,6 +9,5 @@
 import Foundation
 
 // Presenter to Router
-protocol ___FILEBASENAMEASIDENTIFIER___RouterInput: class {
-    func dismiss(animated: Bool, completion: (() -> Void)?)
+protocol ___FILEBASENAMEASIDENTIFIER___RouterInterface: class {
 }
