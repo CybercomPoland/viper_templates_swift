@@ -9,6 +9,6 @@
 import Foundation
 
 // this module Presenter to presenting module Presenter (delegate of this Module)
-protocol ___FILEBASENAMEASIDENTIFIER___Delegate: class {
+protocol ___FILEBASENAMEASIDENTIFIER___ModuleDelegate: class {
 
 }
