@@ -8,7 +8,6 @@
 
 import Foundation
 
-// this module Presenter to presenting module Presenter (delegate of this Module)
-protocol ___FILEBASENAMEASIDENTIFIER___Delegate: class {
-
+// Presenter to Router
+protocol ___FILEBASENAMEASIDENTIFIER___RouterInterface: class {
 }

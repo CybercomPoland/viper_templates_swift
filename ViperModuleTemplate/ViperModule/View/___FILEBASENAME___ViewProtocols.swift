@@ -15,6 +15,6 @@ protocol ___FILEBASENAMEASIDENTIFIER___ViewInput: class {
 
 // View to Presenter
 protocol ___FILEBASENAMEASIDENTIFIER___ViewOutput: class {
-    weak var delegate: ___FILEBASENAMEASIDENTIFIER___Delegate? { get set }
+    weak var delegate: ___FILEBASENAMEASIDENTIFIER___ModuleDelegate? { get set }
     func viewDidLoad()
 }
