@@ -14,10 +14,10 @@
 		B25489DC1EDC86B0008F263B /* ___FILEBASENAME___DataManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489CC1EDC86B0008F263B /* ___FILEBASENAME___DataManagerProtocols.swift */; };
 		B25489DD1EDC86B0008F263B /* ___FILEBASENAME___Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489CE1EDC86B0008F263B /* ___FILEBASENAME___Interactor.swift */; };
 		B25489DE1EDC86B0008F263B /* ___FILEBASENAME___InteractorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489CF1EDC86B0008F263B /* ___FILEBASENAME___InteractorProtocols.swift */; };
-		B25489DF1EDC86B0008F263B /* ___FILEBASENAME___(Module)DelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489D11EDC86B0008F263B /* ___FILEBASENAME___(Module)DelegateProtocol.swift */; };
+		B25489DF1EDC86B0008F263B /* ___FILEBASENAME___ModuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489D11EDC86B0008F263B /* ___FILEBASENAME___ModuleDelegate.swift */; };
 		B25489E01EDC86B0008F263B /* ___FILEBASENAME___Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489D21EDC86B0008F263B /* ___FILEBASENAME___Presenter.swift */; };
 		B25489E11EDC86B0008F263B /* ___FILEBASENAME___Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489D41EDC86B0008F263B /* ___FILEBASENAME___Router.swift */; };
-		B25489E21EDC86B0008F263B /* ___FILEBASENAME___RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489D51EDC86B0008F263B /* ___FILEBASENAME___RouterProtocol.swift */; };
+		B25489E21EDC86B0008F263B /* ___FILEBASENAME___RouterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489D51EDC86B0008F263B /* ___FILEBASENAME___RouterInterface.swift */; };
 		B25489E41EDC86B0008F263B /* ___FILEBASENAME___ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489D81EDC86B0008F263B /* ___FILEBASENAME___ViewController.swift */; };
 		B25489E51EDC86B0008F263B /* ___FILEBASENAME___ViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489D91EDC86B0008F263B /* ___FILEBASENAME___ViewProtocols.swift */; };
 		B26864721EE6C8180040FD78 /* ___FILEBASENAME___RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489D61EDC86B0008F263B /* ___FILEBASENAME___RouterTests.swift */; };
@@ -61,10 +61,10 @@
 		B25489CC1EDC86B0008F263B /* ___FILEBASENAME___DataManagerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___DataManagerProtocols.swift"; sourceTree = "<group>"; };
 		B25489CE1EDC86B0008F263B /* ___FILEBASENAME___Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Interactor.swift"; sourceTree = "<group>"; };
 		B25489CF1EDC86B0008F263B /* ___FILEBASENAME___InteractorProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___InteractorProtocols.swift"; sourceTree = "<group>"; };
-		B25489D11EDC86B0008F263B /* ___FILEBASENAME___(Module)DelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___(Module)DelegateProtocol.swift"; sourceTree = "<group>"; };
+		B25489D11EDC86B0008F263B /* ___FILEBASENAME___ModuleDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ModuleDelegate.swift"; sourceTree = "<group>"; };
 		B25489D21EDC86B0008F263B /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
 		B25489D41EDC86B0008F263B /* ___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
-		B25489D51EDC86B0008F263B /* ___FILEBASENAME___RouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___RouterProtocol.swift"; sourceTree = "<group>"; };
+		B25489D51EDC86B0008F263B /* ___FILEBASENAME___RouterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___RouterInterface.swift"; sourceTree = "<group>"; };
 		B25489D61EDC86B0008F263B /* ___FILEBASENAME___RouterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___RouterTests.swift"; sourceTree = "<group>"; };
 		B25489D81EDC86B0008F263B /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
 		B25489D91EDC86B0008F263B /* ___FILEBASENAME___ViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewProtocols.swift"; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		B25489D01EDC86B0008F263B /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				B25489D11EDC86B0008F263B /* ___FILEBASENAME___(Module)DelegateProtocol.swift */,
+				B25489D11EDC86B0008F263B /* ___FILEBASENAME___ModuleDelegate.swift */,
 				B25489D21EDC86B0008F263B /* ___FILEBASENAME___Presenter.swift */,
 			);
 			path = Presenter;
@@ -180,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				B25489D41EDC86B0008F263B /* ___FILEBASENAME___Router.swift */,
-				B25489D51EDC86B0008F263B /* ___FILEBASENAME___RouterProtocol.swift */,
+				B25489D51EDC86B0008F263B /* ___FILEBASENAME___RouterInterface.swift */,
 				B25489D61EDC86B0008F263B /* ___FILEBASENAME___RouterTests.swift */,
 			);
 			path = Router;
@@ -555,9 +555,9 @@
 				B25489E41EDC86B0008F263B /* ___FILEBASENAME___ViewController.swift in Sources */,
 				B2771F411ED845DD00D7C3C6 /* ViewController.swift in Sources */,
 				B25489E01EDC86B0008F263B /* ___FILEBASENAME___Presenter.swift in Sources */,
-				B25489E21EDC86B0008F263B /* ___FILEBASENAME___RouterProtocol.swift in Sources */,
+				B25489E21EDC86B0008F263B /* ___FILEBASENAME___RouterInterface.swift in Sources */,
 				B25489DC1EDC86B0008F263B /* ___FILEBASENAME___DataManagerProtocols.swift in Sources */,
-				B25489DF1EDC86B0008F263B /* ___FILEBASENAME___(Module)DelegateProtocol.swift in Sources */,
+				B25489DF1EDC86B0008F263B /* ___FILEBASENAME___ModuleDelegate.swift in Sources */,
 				B2771F3F1ED845DD00D7C3C6 /* AppDelegate.swift in Sources */,
 				B25489DE1EDC86B0008F263B /* ___FILEBASENAME___InteractorProtocols.swift in Sources */,
 			);

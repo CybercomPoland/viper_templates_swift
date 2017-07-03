@@ -22,7 +22,7 @@ class ___FILEBASENAMEASIDENTIFIER___Interactor {
 }
 
 class ___FILEBASENAMEASIDENTIFIER___Presenter {
-    weak var delegate: ___FILEBASENAMEASIDENTIFIER___Delegate?
+    weak var delegate: ___FILEBASENAMEASIDENTIFIER___ModuleDelegate?
 
     private (set) var router: ___FILEBASENAMEASIDENTIFIER___Router
     private (set) var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput
@@ -74,14 +74,5 @@ class ___FILEBASENAMEASIDENTIFIER___Router {
         interactor.interactorOutput   = presenter
         dataManager.dataManagerOutput = interactor
         return vc
-    }
-
-    static func presentModule(from source: UIViewController, withDelegate delegate: ___FILEBASENAMEASIDENTIFIER___Delegate?, animated: Bool, completion: (() -> Void)?) {
-        guard let vc = ___FILEBASENAMEASIDENTIFIER___Router.instantiateModule() else {
-            assertionFailure("Could not instantiate \(___FILEBASENAMEASIDENTIFIER___ViewController.self)")
-            return
-        }
-        vc.viewOutput?.delegate = delegate
-        source.present(vc, animated: animated, completion: completion)
     }
 }

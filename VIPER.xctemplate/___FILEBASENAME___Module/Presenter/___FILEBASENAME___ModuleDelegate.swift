@@ -8,7 +8,7 @@
 
 import Foundation
 
-// Presenter to Router
-protocol ___FILEBASENAMEASIDENTIFIER___RouterInput: class {
-    func dismiss(animated: Bool, completion: (() -> Void)?)
+// this module Presenter to presenting module Presenter (delegate of this Module)
+protocol ___FILEBASENAMEASIDENTIFIER___ModuleDelegate: class {
+
 }
