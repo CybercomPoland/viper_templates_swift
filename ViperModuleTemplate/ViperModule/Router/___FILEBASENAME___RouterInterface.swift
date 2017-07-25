@@ -6,7 +6,7 @@
 //  Copyright © ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 // Presenter to Router
 protocol ___VARIABLE_viperModuleName___RouterInterface: class {
