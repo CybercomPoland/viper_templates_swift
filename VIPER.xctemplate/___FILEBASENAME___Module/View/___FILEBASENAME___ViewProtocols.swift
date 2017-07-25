@@ -15,6 +15,6 @@ protocol ___VARIABLE_viperModuleName___ViewInput: class {
 
 // View to Presenter
 protocol ___VARIABLE_viperModuleName___ViewOutput: class {
-    weak var delegate: ___VARIABLE_viperModuleName___Delegate? { get set }
+    weak var delegate: ___VARIABLE_viperModuleName___ModuleDelegate? { get set }
     func viewDidLoad()
 }

@@ -8,7 +8,6 @@
 
 import Foundation
 
-// this module Presenter to presenting module Presenter (delegate of this Module)
-protocol ___VARIABLE_viperModuleName___Delegate: class {
-
+// Presenter to Router
+protocol ___VARIABLE_viperModuleName___RouterInterface: class {
 }

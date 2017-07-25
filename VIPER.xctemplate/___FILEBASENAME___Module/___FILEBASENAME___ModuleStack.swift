@@ -22,7 +22,7 @@ class ___VARIABLE_viperModuleName___Interactor {
 }
 
 class ___VARIABLE_viperModuleName___Presenter {
-    weak var delegate: ___VARIABLE_viperModuleName___Delegate?
+    weak var delegate: ___VARIABLE_viperModuleName___ModuleDelegate?
 
     private (set) var router: ___VARIABLE_viperModuleName___Router
     private (set) var interactor: ___VARIABLE_viperModuleName___InteractorInput
@@ -74,14 +74,5 @@ class ___VARIABLE_viperModuleName___Router {
         interactor.interactorOutput   = presenter
         dataManager.dataManagerOutput = interactor
         return vc
-    }
-
-    static func presentModule(from source: UIViewController, withDelegate delegate: ___VARIABLE_viperModuleName___Delegate?, animated: Bool, completion: (() -> Void)?) {
-        guard let vc = ___VARIABLE_viperModuleName___Router.instantiateModule() else {
-            assertionFailure("Could not instantiate \(___VARIABLE_viperModuleName___ViewController.self)")
-            return
-        }
-        vc.viewOutput?.delegate = delegate
-        source.present(vc, animated: animated, completion: completion)
     }
 }
