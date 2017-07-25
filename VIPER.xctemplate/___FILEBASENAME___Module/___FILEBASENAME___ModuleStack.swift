@@ -30,7 +30,7 @@ class ___VARIABLE_viperModuleName___Presenter {
 
     fileprivate init(interactor: ___VARIABLE_viperModuleName___Interactor, router: ___VARIABLE_viperModuleName___Router) {
         self.interactor = interactor
-        self.router          = router
+        self.router = router
     }
 }
 
@@ -45,33 +45,26 @@ class ___VARIABLE_viperModuleName___Router {
     // MARK: instantiation of module
     static func instantiateModule() -> ___VARIABLE_viperModuleName___ViewController? {
 
-//#WARNING after creating new module remember to do following:
+        //#WARNING after creating new module remember to do following:
         <#todo#>// 1. create storyboard '___VARIABLE_viperModuleName___'
-        guard (Bundle.main.path(forResource: storyboardName, ofType: "storyboardc") != nil) else {
-            print("Could not find path for resource \(storyboardName).storyboard")
-            return nil
-        }
-        let storyboard = UIStoryboard(name: storyboardName, bundle: Bundle.main)
         <#todo#>// 2. add ViewController to storyboard and set storyboard ID to ___VARIABLE_viperModuleName___ViewControllerID
-        guard let storyboardValues = storyboard.value(forKey: "identifierToNibNameMap") as? [String : Any], (storyboardValues[storyboardID] != nil) else {
-            print("Could not find ViewController with identifier \(storyboardID) in \(storyboardName).storyboard")
-            return nil
-        }
         <#todo#>// 3. set type of ViewController as "___VARIABLE_viperModuleName___ViewController"
+
+        let storyboard = UIStoryboard(name: storyboardName, bundle: Bundle.main)
         guard let vc = storyboard.instantiateViewController(withIdentifier: storyboardID) as? ___VARIABLE_viperModuleName___ViewController else {
             print("ViewController with identifier \(storyboardID) in \(storyboardName).storyboard is not of type \(viewControllerType)")
             return nil
         }
 
-        let router      = ___VARIABLE_viperModuleName___Router()
+        let router = ___VARIABLE_viperModuleName___Router()
         let dataManager = ___VARIABLE_viperModuleName___DataManager()
-        let interactor  = ___VARIABLE_viperModuleName___Interactor(dataManager: dataManager)
-        let presenter   = ___VARIABLE_viperModuleName___Presenter(interactor: interactor, router: router)
+        let interactor = ___VARIABLE_viperModuleName___Interactor(dataManager: dataManager)
+        let presenter = ___VARIABLE_viperModuleName___Presenter(interactor: interactor, router: router)
 
         router.viewController = vc
-        presenter.view   = vc
-        vc.viewOutput                 = presenter
-        interactor.interactorOutput   = presenter
+        presenter.view = vc
+        vc.viewOutput = presenter
+        interactor.interactorOutput = presenter
         dataManager.dataManagerOutput = interactor
         return vc
     }
