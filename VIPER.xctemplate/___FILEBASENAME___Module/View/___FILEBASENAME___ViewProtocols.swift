@@ -9,12 +9,12 @@
 import Foundation
 
 // Presenter to View
-protocol ___FILEBASENAMEASIDENTIFIER___ViewInput: class {
-    var viewOutput: ___FILEBASENAMEASIDENTIFIER___ViewOutput? { get set }
+protocol ___VARIABLE_viperModuleName___ViewInput: class {
+    var viewOutput: ___VARIABLE_viperModuleName___ViewOutput? { get set }
 }
 
 // View to Presenter
-protocol ___FILEBASENAMEASIDENTIFIER___ViewOutput: class {
-    weak var delegate: ___FILEBASENAMEASIDENTIFIER___ModuleDelegate? { get set }
+protocol ___VARIABLE_viperModuleName___ViewOutput: class {
+    weak var delegate: ___VARIABLE_viperModuleName___ModuleDelegate? { get set }
     func viewDidLoad()
 }

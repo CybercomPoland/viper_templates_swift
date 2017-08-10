@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
-    var viewOutput: ___FILEBASENAMEASIDENTIFIER___ViewOutput?
+class ___VARIABLE_viperModuleName___ViewController: UIViewController {
+    var viewOutput: ___VARIABLE_viperModuleName___ViewOutput?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,6 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
 
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewInput {
+extension ___VARIABLE_viperModuleName___ViewController: ___VARIABLE_viperModuleName___ViewInput {
 
 }

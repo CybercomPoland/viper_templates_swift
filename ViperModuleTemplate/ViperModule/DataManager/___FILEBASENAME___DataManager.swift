@@ -8,6 +8,6 @@
 
 import Foundation
 
-extension ___FILEBASENAMEASIDENTIFIER___DataManager: ___FILEBASENAMEASIDENTIFIER___DataManagerInput {
+extension ___VARIABLE_viperModuleName___DataManager: ___VARIABLE_viperModuleName___DataManagerInput {
 
 }

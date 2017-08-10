@@ -8,6 +8,6 @@
 
 import UIKit
 
-extension ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___RouterInterface {
+extension ___VARIABLE_viperModuleName___Router: ___VARIABLE_viperModuleName___RouterInterface {
 
 }
