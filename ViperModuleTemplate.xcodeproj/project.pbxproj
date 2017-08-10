@@ -83,6 +83,19 @@
 		B2771F601ED845DE00D7C3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E04BBA6D14882EB51E037BF2 /* Pods_ViperModuleTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperModuleTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA09A74D8680E24A6F09287 /* Pods-ViperModuleTemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperModuleTemplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperModuleTemplateUITests/Pods-ViperModuleTemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE6895861F3C966D00E44D33 /* ___FILEBASENAME___ModuleStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ModuleStack.swift"; sourceTree = "<group>"; };
+		FE6895881F3C966D00E44D33 /* ___FILEBASENAME___DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___DataManager.swift"; sourceTree = "<group>"; };
+		FE6895891F3C966D00E44D33 /* ___FILEBASENAME___DataManagerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___DataManagerProtocols.swift"; sourceTree = "<group>"; };
+		FE68958B1F3C966D00E44D33 /* ___FILEBASENAME___Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Interactor.swift"; sourceTree = "<group>"; };
+		FE68958C1F3C966D00E44D33 /* ___FILEBASENAME___InteractorProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___InteractorProtocols.swift"; sourceTree = "<group>"; };
+		FE68958E1F3C966D00E44D33 /* ___FILEBASENAME___ModuleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ModuleDelegate.swift"; sourceTree = "<group>"; };
+		FE68958F1F3C966D00E44D33 /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
+		FE6895911F3C966D00E44D33 /* ___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
+		FE6895921F3C966D00E44D33 /* ___FILEBASENAME___RouterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___RouterInterface.swift"; sourceTree = "<group>"; };
+		FE6895931F3C966D00E44D33 /* ___FILEBASENAME___RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___RouterTests.swift"; sourceTree = "<group>"; };
+		FE6895951F3C966D00E44D33 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
+		FE6895961F3C966D00E44D33 /* ___FILEBASENAME___ViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewProtocols.swift"; sourceTree = "<group>"; };
+		FE6895971F3C998200E44D33 /* ___FILEBASENAME___.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "___FILEBASENAME___.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +233,7 @@
 		B2771F3D1ED845DD00D7C3C6 /* ViperModuleTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				FE6895851F3C966D00E44D33 /* ViperTableModule */,
 				B2771F3E1ED845DD00D7C3C6 /* AppDelegate.swift */,
 				B2771F401ED845DD00D7C3C6 /* ViewController.swift */,
 				B2771F421ED845DD00D7C3C6 /* Main.storyboard */,
@@ -247,6 +261,66 @@
 				B2771F601ED845DE00D7C3C6 /* Info.plist */,
 			);
 			path = ViperModuleTemplateUITests;
+			sourceTree = "<group>";
+		};
+		FE6895851F3C966D00E44D33 /* ViperTableModule */ = {
+			isa = PBXGroup;
+			children = (
+				FE6895861F3C966D00E44D33 /* ___FILEBASENAME___ModuleStack.swift */,
+				FE6895871F3C966D00E44D33 /* DataManager */,
+				FE68958A1F3C966D00E44D33 /* Interactor */,
+				FE68958D1F3C966D00E44D33 /* Presenter */,
+				FE6895901F3C966D00E44D33 /* Router */,
+				FE6895941F3C966D00E44D33 /* View */,
+			);
+			path = ViperTableModule;
+			sourceTree = "<group>";
+		};
+		FE6895871F3C966D00E44D33 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				FE6895881F3C966D00E44D33 /* ___FILEBASENAME___DataManager.swift */,
+				FE6895891F3C966D00E44D33 /* ___FILEBASENAME___DataManagerProtocols.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		FE68958A1F3C966D00E44D33 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FE68958B1F3C966D00E44D33 /* ___FILEBASENAME___Interactor.swift */,
+				FE68958C1F3C966D00E44D33 /* ___FILEBASENAME___InteractorProtocols.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FE68958D1F3C966D00E44D33 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FE68958E1F3C966D00E44D33 /* ___FILEBASENAME___ModuleDelegate.swift */,
+				FE68958F1F3C966D00E44D33 /* ___FILEBASENAME___Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FE6895901F3C966D00E44D33 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FE6895911F3C966D00E44D33 /* ___FILEBASENAME___Router.swift */,
+				FE6895921F3C966D00E44D33 /* ___FILEBASENAME___RouterInterface.swift */,
+				FE6895931F3C966D00E44D33 /* ___FILEBASENAME___RouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FE6895941F3C966D00E44D33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE6895971F3C998200E44D33 /* ___FILEBASENAME___.storyboard */,
+				FE6895951F3C966D00E44D33 /* ___FILEBASENAME___ViewController.swift */,
+				FE6895961F3C966D00E44D33 /* ___FILEBASENAME___ViewProtocols.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
