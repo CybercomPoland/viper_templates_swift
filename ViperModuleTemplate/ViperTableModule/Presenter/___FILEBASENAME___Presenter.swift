@@ -16,15 +16,16 @@ class ___VARIABLE_viperModuleName___Presenter: TableViewPresenter {
     private (set) weak var view: ___VARIABLE_viperModuleName___ViewInput?
 
     init(interactor: ___VARIABLE_viperModuleName___Interactor,
-                     router: ___VARIABLE_viperModuleName___Router,
-                     view: ___VARIABLE_viperModuleName___ViewInput?) {
+         router: ___VARIABLE_viperModuleName___Router,
+         view: ___VARIABLE_viperModuleName___ViewInput?) {
+
         self.interactor = interactor
         self.router = router
         self.view = view
     }
 
     override func viewDidLoad() {
-        view?.registerReusable(classes: []) //TODO: provide list of used *Row.self
+        view?.register(reusables: []) //TODO: provide list of used *Row.self / *Header.self
 
         //interactor.readyToDisplayContent() //TODO: call interactor to prepare data
     }
@@ -32,9 +33,9 @@ class ___VARIABLE_viperModuleName___Presenter: TableViewPresenter {
 
 extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName___InteractorOutput {
 
-    //TODO: call from interactor when data to be displayed is ready
+    //TODO: Handle call from interactor when data to be displayed is ready
     //func display(...) {
-    //    populateData(...)   //TODO: populate rows
+    //    populateData(...)
     //    view?.reloadData()
     //}
 }

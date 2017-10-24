@@ -13,7 +13,6 @@ extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName__
 }
 
 extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName___ViewOutput {
-
     func viewDidLoad() {
     }
 }

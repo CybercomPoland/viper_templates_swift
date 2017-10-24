@@ -10,14 +10,12 @@ import UIKit
 
 class ___VARIABLE_viperModuleName___ViewController: TableViewViewController {
     var viewOutput: ___VARIABLE_viperModuleName___ViewOutput! {
-        didSet {
-            baseViewOutput = viewOutput
-        }
+        didSet { baseViewOutput = viewOutput }
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        viewOutput?.viewDidLoad()
+    override func setUp() {
+        super.setUp()
+        //Add view controller setup code here (do not use viewDidLoad!)
     }
 
 }
