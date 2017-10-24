@@ -8,18 +8,16 @@
 
 import UIKit
 
-class ___VARIABLE_viperModuleName___ViewController: UIViewController {
-    var viewOutput: ___VARIABLE_viperModuleName___ViewOutput?
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setUp()
-        viewOutput?.viewDidLoad()
+class ___VARIABLE_viperModuleName___ViewController: TableViewViewController {
+    var viewOutput: ___VARIABLE_viperModuleName___ViewOutput! {
+        didSet { baseViewOutput = viewOutput }
     }
 
-    func setUp() {
+    override func setUp() {
+        super.setUp()
         //Add view controller setup code here (do not use viewDidLoad!)
     }
+
 }
 
 extension ___VARIABLE_viperModuleName___ViewController: ___VARIABLE_viperModuleName___ViewInput {

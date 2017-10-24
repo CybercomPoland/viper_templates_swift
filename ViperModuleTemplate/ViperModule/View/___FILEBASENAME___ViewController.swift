@@ -13,9 +13,13 @@ class ___VARIABLE_viperModuleName___ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUp()
         viewOutput?.viewDidLoad()
     }
 
+    func setUp() {
+        //Add view controller setup code here (do not use viewDidLoad!)
+    }
 }
 
 extension ___VARIABLE_viperModuleName___ViewController: ___VARIABLE_viperModuleName___ViewInput {

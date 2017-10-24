@@ -21,19 +21,6 @@ class ___VARIABLE_viperModuleName___Interactor {
     }
 }
 
-class ___VARIABLE_viperModuleName___Presenter {
-    weak var delegate: ___VARIABLE_viperModuleName___ModuleDelegate?
-
-    private (set) var router: ___VARIABLE_viperModuleName___Router
-    private (set) var interactor: ___VARIABLE_viperModuleName___InteractorInput
-    fileprivate (set) weak var view: ___VARIABLE_viperModuleName___ViewInput?
-
-    fileprivate init(interactor: ___VARIABLE_viperModuleName___Interactor, router: ___VARIABLE_viperModuleName___Router) {
-        self.interactor = interactor
-        self.router = router
-    }
-}
-
 class ___VARIABLE_viperModuleName___Router {
     private (set) weak var viewController: ___VARIABLE_viperModuleName___ViewController?
     private init() {}
@@ -53,11 +40,10 @@ class ___VARIABLE_viperModuleName___Router {
         let router = ___VARIABLE_viperModuleName___Router()
         let dataManager = ___VARIABLE_viperModuleName___DataManager()
         let interactor = ___VARIABLE_viperModuleName___Interactor(dataManager: dataManager)
-        let presenter = ___VARIABLE_viperModuleName___Presenter(interactor: interactor, router: router)
+        let presenter = ___VARIABLE_viperModuleName___Presenter(interactor: interactor, router: router, view: vc)
         presenter.delegate = delegate
 
         router.viewController = vc
-        presenter.view = vc
         vc.viewOutput = presenter
         interactor.interactorOutput = presenter
         dataManager.dataManagerOutput = interactor
