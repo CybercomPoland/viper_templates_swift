@@ -10,7 +10,6 @@
 		2E91E32C527D4FCDD54DD020 /* Pods_ViperModuleTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04BBA6D14882EB51E037BF2 /* Pods_ViperModuleTemplate.framework */; };
 		55400CC1E838861DD19B9A3A /* Pods_ViperModuleTemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13B090795BB583AAB6B00BE /* Pods_ViperModuleTemplateUITests.framework */; };
 		A7DA4A551F9F976E0062B364 /* ___FILEBASENAME___.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DA4A541F9F976E0062B364 /* ___FILEBASENAME___.storyboard */; };
-		B25489DA1EDC86B0008F263B /* ___FILEBASENAME___ModuleStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489C91EDC86B0008F263B /* ___FILEBASENAME___ModuleStack.swift */; };
 		B25489DB1EDC86B0008F263B /* ___FILEBASENAME___DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489CB1EDC86B0008F263B /* ___FILEBASENAME___DataManager.swift */; };
 		B25489DC1EDC86B0008F263B /* ___FILEBASENAME___DataManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489CC1EDC86B0008F263B /* ___FILEBASENAME___DataManagerProtocols.swift */; };
 		B25489DD1EDC86B0008F263B /* ___FILEBASENAME___Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489CE1EDC86B0008F263B /* ___FILEBASENAME___Interactor.swift */; };
@@ -58,7 +57,6 @@
 		6250CA3CA5ABAF8919BCCC6B /* Pods_ViperModuleTemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperModuleTemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DA4A541F9F976E0062B364 /* ___FILEBASENAME___.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "___FILEBASENAME___.storyboard"; sourceTree = "<group>"; };
 		B13B090795BB583AAB6B00BE /* Pods_ViperModuleTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperModuleTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B25489C91EDC86B0008F263B /* ___FILEBASENAME___ModuleStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ModuleStack.swift"; sourceTree = "<group>"; };
 		B25489CB1EDC86B0008F263B /* ___FILEBASENAME___DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___DataManager.swift"; sourceTree = "<group>"; };
 		B25489CC1EDC86B0008F263B /* ___FILEBASENAME___DataManagerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___DataManagerProtocols.swift"; sourceTree = "<group>"; };
 		B25489CE1EDC86B0008F263B /* ___FILEBASENAME___Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Interactor.swift"; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 		B2771F601ED845DE00D7C3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E04BBA6D14882EB51E037BF2 /* Pods_ViperModuleTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperModuleTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA09A74D8680E24A6F09287 /* Pods-ViperModuleTemplateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperModuleTemplateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperModuleTemplateUITests/Pods-ViperModuleTemplateUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FE6895861F3C966D00E44D33 /* ___FILEBASENAME___ModuleStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ModuleStack.swift"; sourceTree = "<group>"; };
 		FE6895881F3C966D00E44D33 /* ___FILEBASENAME___DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___DataManager.swift"; sourceTree = "<group>"; };
 		FE6895891F3C966D00E44D33 /* ___FILEBASENAME___DataManagerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___DataManagerProtocols.swift"; sourceTree = "<group>"; };
 		FE68958B1F3C966D00E44D33 /* ___FILEBASENAME___Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Interactor.swift"; sourceTree = "<group>"; };
@@ -154,7 +151,6 @@
 		B25489C81EDC86B0008F263B /* ViperModule */ = {
 			isa = PBXGroup;
 			children = (
-				B25489C91EDC86B0008F263B /* ___FILEBASENAME___ModuleStack.swift */,
 				B25489CA1EDC86B0008F263B /* DataManager */,
 				B25489CD1EDC86B0008F263B /* Interactor */,
 				B25489D01EDC86B0008F263B /* Presenter */,
@@ -269,7 +265,6 @@
 		FE6895851F3C966D00E44D33 /* ViperTableModule */ = {
 			isa = PBXGroup;
 			children = (
-				FE6895861F3C966D00E44D33 /* ___FILEBASENAME___ModuleStack.swift */,
 				FE6895871F3C966D00E44D33 /* DataManager */,
 				FE68958A1F3C966D00E44D33 /* Interactor */,
 				FE68958D1F3C966D00E44D33 /* Presenter */,
@@ -626,7 +621,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25489E11EDC86B0008F263B /* ___FILEBASENAME___Router.swift in Sources */,
-				B25489DA1EDC86B0008F263B /* ___FILEBASENAME___ModuleStack.swift in Sources */,
 				B25489E51EDC86B0008F263B /* ___FILEBASENAME___ViewProtocols.swift in Sources */,
 				B25489DB1EDC86B0008F263B /* ___FILEBASENAME___DataManager.swift in Sources */,
 				B25489DD1EDC86B0008F263B /* ___FILEBASENAME___Interactor.swift in Sources */,
