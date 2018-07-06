@@ -9,6 +9,7 @@
 import UIKit
 
 class ___VARIABLE_viperModuleName___Router {
+    // MARK: Router properties
     private (set) weak var viewController: ___VARIABLE_viperModuleName___ViewController?
     private init() {}
 
@@ -39,5 +40,7 @@ class ___VARIABLE_viperModuleName___Router {
 }
 
 extension ___VARIABLE_viperModuleName___Router: ___VARIABLE_viperModuleName___RouterInterface {
+    // MARK: RouterInterface computed properties
 
+    // MARK: RouterInterface methods
 }

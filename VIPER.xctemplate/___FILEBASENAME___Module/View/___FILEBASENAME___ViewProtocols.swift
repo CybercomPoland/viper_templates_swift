@@ -10,11 +10,16 @@ import Foundation
 
 // Presenter to View
 protocol ___VARIABLE_viperModuleName___ViewInput: class {
+    // MARK: ViewInput protocol properties
     var viewOutput: ___VARIABLE_viperModuleName___ViewOutput? { get set }
+
+    // MARK: ViewInput protocol methods
 }
 
 // View to Presenter
 protocol ___VARIABLE_viperModuleName___ViewOutput: class {
-    weak var delegate: ___VARIABLE_viperModuleName___ModuleDelegate? { get set }
-    func viewDidLoad()
+    // MARK: ViewOutput protocol properties
+    var delegate: ___VARIABLE_viperModuleName___ModuleDelegate? { get set }
+
+    // MARK: ViewOutput protocol methods
 }

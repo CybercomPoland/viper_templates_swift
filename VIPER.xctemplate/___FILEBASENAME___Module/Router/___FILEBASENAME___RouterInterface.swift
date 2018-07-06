@@ -10,4 +10,7 @@ import UIKit
 
 // Presenter to Router
 protocol ___VARIABLE_viperModuleName___RouterInterface: class {
+    // MARK: RouterInterface protocol properties
+
+    // MARK: RouterInterface protocol methods
 }

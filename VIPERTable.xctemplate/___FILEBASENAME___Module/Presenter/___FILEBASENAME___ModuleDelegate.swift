@@ -10,5 +10,7 @@ import Foundation
 
 // this module Presenter to presenting module Presenter (delegate of this Module)
 protocol ___VARIABLE_viperModuleName___ModuleDelegate: class {
+    // MARK: ModuleDelegate protocol properties
 
+    // MARK: ModuleDelegate protocol methods
 }
