@@ -8,9 +8,10 @@
 
 import Foundation
 
-// this module Presenter to presenting module Presenter (delegate of this Module)
+/* This module Presenter to presenting module Presenter (delegate of this Module) */
 protocol ___VARIABLE_viperModuleName___ModuleDelegate: class {
-    // MARK: ModuleDelegate protocol properties
+    
+    // MARK: Properties
 
-    // MARK: ModuleDelegate protocol methods
+    // MARK: Methods
 }

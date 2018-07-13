@@ -8,15 +8,17 @@
 
 import Foundation
 
-// Presenter to Interactor
+/* Presenter to Interactor */
 protocol ___VARIABLE_viperModuleName___InteractorInput: class {
+    
     // MARK: InteractorInput protocol properties
 
     // MARK: DataManagerInput protocol methods
 }
 
-// Interactor to Presenter
+/* Interactor to Presenter */
 protocol ___VARIABLE_viperModuleName___InteractorOutput: class {
+    
     // MARK: InteractorOutput protocol properties
 
     // MARK: DataManagerInput protocol methods

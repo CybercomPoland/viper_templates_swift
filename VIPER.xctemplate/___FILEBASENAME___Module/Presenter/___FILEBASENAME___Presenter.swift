@@ -9,7 +9,9 @@
 import Foundation
 
 class ___VARIABLE_viperModuleName___Presenter {
-    // MARK: Presenter properties
+    
+    // MARK: Properties
+    
     weak var delegate: ___VARIABLE_viperModuleName___ModuleDelegate?
 
     private (set) var router: ___VARIABLE_viperModuleName___Router
@@ -20,7 +22,8 @@ class ___VARIABLE_viperModuleName___Presenter {
 
     // MARK: ViewOutput stored properties
 
-    // MARK: Presenter Lifecycle
+    // MARK: Lifecycle
+    
     init(interactor: ___VARIABLE_viperModuleName___Interactor, router: ___VARIABLE_viperModuleName___Router) {
         self.interactor = interactor
         self.router = router
@@ -28,13 +31,15 @@ class ___VARIABLE_viperModuleName___Presenter {
 }
 
 extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName___InteractorOutput {
-    // MARK: InteractorOutput computed properties
+    
+    // MARK: Computed properties
 
-    // MARK: InteractorOutput methods
+    // MARK: Methods
 }
 
 extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName___ViewOutput {
-    // MARK: ViewOutput computed properties
+    
+    // MARK: Computed properties
 
-    // MARK: ViewOutput methods
+    // MARK: Methods
 }

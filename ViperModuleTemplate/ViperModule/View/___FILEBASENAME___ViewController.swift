@@ -28,7 +28,7 @@ class ___VARIABLE_viperModuleName___ViewController: UIViewController {
 
     // MARK: User Interaction
 
-    //MARK: Additional Helpers
+    // MARK: Additional Helpers
 }
 
 extension ___VARIABLE_viperModuleName___ViewController: ___VARIABLE_viperModuleName___ViewInput {
