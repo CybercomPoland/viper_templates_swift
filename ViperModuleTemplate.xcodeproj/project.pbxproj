@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FD28C512100E23800281C34 /* ___FILEBASENAME___.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD28C502100E23800281C34 /* ___FILEBASENAME___.storyboard */; };
+		1FD28C532100E2A300281C34 /* ___FILEBASENAME___.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD28C522100E2A300281C34 /* ___FILEBASENAME___.storyboard */; };
 		2E91E32C527D4FCDD54DD020 /* Pods_ViperModuleTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04BBA6D14882EB51E037BF2 /* Pods_ViperModuleTemplate.framework */; };
 		55400CC1E838861DD19B9A3A /* Pods_ViperModuleTemplateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13B090795BB583AAB6B00BE /* Pods_ViperModuleTemplateUITests.framework */; };
-		A7DA4A551F9F976E0062B364 /* ___FILEBASENAME___.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DA4A541F9F976E0062B364 /* ___FILEBASENAME___.storyboard */; };
 		B25489DB1EDC86B0008F263B /* ___FILEBASENAME___DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489CB1EDC86B0008F263B /* ___FILEBASENAME___DataManager.swift */; };
 		B25489DC1EDC86B0008F263B /* ___FILEBASENAME___DataManagerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489CC1EDC86B0008F263B /* ___FILEBASENAME___DataManagerProtocols.swift */; };
 		B25489DD1EDC86B0008F263B /* ___FILEBASENAME___Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25489CE1EDC86B0008F263B /* ___FILEBASENAME___Interactor.swift */; };
@@ -50,12 +51,13 @@
 
 /* Begin PBXFileReference section */
 		0396865F1C75FA724D30D3C9 /* Pods-ViperModuleTemplateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperModuleTemplateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperModuleTemplateUITests/Pods-ViperModuleTemplateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FD28C502100E23800281C34 /* ___FILEBASENAME___.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "___FILEBASENAME___.storyboard"; sourceTree = "<group>"; };
+		1FD28C522100E2A300281C34 /* ___FILEBASENAME___.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "___FILEBASENAME___.storyboard"; sourceTree = "<group>"; };
 		2BBCBD1F9A059E04A1AA1C58 /* Pods-ViperModuleTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperModuleTemplateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperModuleTemplateTests/Pods-ViperModuleTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3519363C5ABAF30A14E62E94 /* Pods-ViperModuleTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperModuleTemplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperModuleTemplate/Pods-ViperModuleTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		3E524EA13923E8608483C443 /* Pods-ViperModuleTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperModuleTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperModuleTemplate/Pods-ViperModuleTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		5BE726521FF10244F63FC2AD /* Pods-ViperModuleTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperModuleTemplateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViperModuleTemplateTests/Pods-ViperModuleTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		6250CA3CA5ABAF8919BCCC6B /* Pods_ViperModuleTemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperModuleTemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7DA4A541F9F976E0062B364 /* ___FILEBASENAME___.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "___FILEBASENAME___.storyboard"; sourceTree = "<group>"; };
 		B13B090795BB583AAB6B00BE /* Pods_ViperModuleTemplateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperModuleTemplateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25489CB1EDC86B0008F263B /* ___FILEBASENAME___DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___DataManager.swift"; sourceTree = "<group>"; };
 		B25489CC1EDC86B0008F263B /* ___FILEBASENAME___DataManagerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___DataManagerProtocols.swift"; sourceTree = "<group>"; };
@@ -94,7 +96,6 @@
 		FE6895931F3C966D00E44D33 /* ___FILEBASENAME___RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___RouterTests.swift"; sourceTree = "<group>"; };
 		FE6895951F3C966D00E44D33 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
 		FE6895961F3C966D00E44D33 /* ___FILEBASENAME___ViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewProtocols.swift"; sourceTree = "<group>"; };
-		FE6895971F3C998200E44D33 /* ___FILEBASENAME___.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "___FILEBASENAME___.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,7 +201,7 @@
 		B25489D71EDC86B0008F263B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A7DA4A541F9F976E0062B364 /* ___FILEBASENAME___.storyboard */,
+				1FD28C502100E23800281C34 /* ___FILEBASENAME___.storyboard */,
 				B25489D81EDC86B0008F263B /* ___FILEBASENAME___ViewController.swift */,
 				B25489D91EDC86B0008F263B /* ___FILEBASENAME___ViewProtocols.swift */,
 			);
@@ -314,7 +315,7 @@
 		FE6895941F3C966D00E44D33 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FE6895971F3C998200E44D33 /* ___FILEBASENAME___.storyboard */,
+				1FD28C522100E2A300281C34 /* ___FILEBASENAME___.storyboard */,
 				FE6895951F3C966D00E44D33 /* ___FILEBASENAME___ViewController.swift */,
 				FE6895961F3C966D00E44D33 /* ___FILEBASENAME___ViewProtocols.swift */,
 			);
@@ -443,8 +444,9 @@
 			files = (
 				B2771F491ED845DD00D7C3C6 /* LaunchScreen.storyboard in Resources */,
 				B2771F461ED845DD00D7C3C6 /* Assets.xcassets in Resources */,
-				A7DA4A551F9F976E0062B364 /* ___FILEBASENAME___.storyboard in Resources */,
 				B2771F441ED845DD00D7C3C6 /* Main.storyboard in Resources */,
+				1FD28C512100E23800281C34 /* ___FILEBASENAME___.storyboard in Resources */,
+				1FD28C532100E2A300281C34 /* ___FILEBASENAME___.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
