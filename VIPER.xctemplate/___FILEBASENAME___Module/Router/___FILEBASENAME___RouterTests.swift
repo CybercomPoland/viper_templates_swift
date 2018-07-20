@@ -8,8 +8,8 @@
 
 import XCTest
 
-<#todo#> //change target of this file to UnitTest
-<#todo#> //make sure you're importing correct testable target
+<#todo#> /* Change target of this file to UnitTest */
+<#todo#> /* Make sure you're importing correct testable target */
 @testable import ___PROJECTNAME___
 
 class ___VARIABLE_viperModuleName___RouterTests: XCTestCase {

@@ -9,14 +9,17 @@
 import UIKit
 
 class ___VARIABLE_viperModuleName___ViewController: UIViewController {
+    
     // MARK: Outlets
 
-    // MARK: ViewController properties
+    // MARK: Properties
+    
     var viewOutput: ___VARIABLE_viperModuleName___ViewOutput?
 
     // MARK: ViewInput stored properties
 
-    // MARK: ViewController Lifecycle
+    // MARK: Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -25,11 +28,12 @@ class ___VARIABLE_viperModuleName___ViewController: UIViewController {
 
     // MARK: User Interaction
 
-    //MARK: Additionals Helpers
+    // MARK: Additional Helpers
 }
 
 extension ___VARIABLE_viperModuleName___ViewController: ___VARIABLE_viperModuleName___ViewInput {
-    // MARK: ViewInput computed properties
+    
+    // MARK: Computed properties
 
-    // MARK: ViewInput methods
+    // MARK: Methods
 }

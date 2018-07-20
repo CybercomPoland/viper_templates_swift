@@ -9,7 +9,9 @@
 import UIKit
 
 class ___VARIABLE_viperModuleName___Router {
-    // MARK: Router properties
+    
+    // MARK: Properties
+    
     private (set) weak var viewController: ___VARIABLE_viperModuleName___ViewController?
     private init() {}
 
@@ -17,7 +19,8 @@ class ___VARIABLE_viperModuleName___Router {
     static let viewControllerType = String(describing: ___VARIABLE_viperModuleName___ViewController.self)
     static let storyboardID = viewControllerType + "ID"
 
-    // MARK: instantiation of module
+    // MARK: Instantiation of module
+    
     static func instantiateModule(delegate: ___VARIABLE_viperModuleName___ModuleDelegate? = nil) -> ___VARIABLE_viperModuleName___ViewController {
 
         let storyboard = UIStoryboard(name: storyboardName, bundle: Bundle.main)
@@ -41,7 +44,8 @@ class ___VARIABLE_viperModuleName___Router {
 }
 
 extension ___VARIABLE_viperModuleName___Router: ___VARIABLE_viperModuleName___RouterInterface {
-    // MARK: RouterInterface computed properties
+    
+    // MARK: Computed properties
 
-    // MARK: RouterInterface methods
+    // MARK: Methods
 }

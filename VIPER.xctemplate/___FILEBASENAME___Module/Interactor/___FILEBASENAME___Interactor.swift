@@ -9,7 +9,9 @@
 import Foundation
 
 class ___VARIABLE_viperModuleName___Interactor {
-    // MARK: Interactor properties
+    
+    // MARK: Properties
+    
     fileprivate (set) var dataManagerInput: ___VARIABLE_viperModuleName___DataManagerInput
     weak var interactorOutput: ___VARIABLE_viperModuleName___InteractorOutput?
 
@@ -17,20 +19,23 @@ class ___VARIABLE_viperModuleName___Interactor {
 
     // MARK: InteractorOutput stored properties
 
-    // MARK: Interactor Lifecycle
+    // MARK: Lifecycle
+    
     init(dataManager: ___VARIABLE_viperModuleName___DataManagerInput = ___VARIABLE_viperModuleName___DataManager()) {
         self.dataManagerInput = dataManager
     }
 }
 
 extension ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleName___InteractorInput {
-    // MARK: InteractorInput computed properties
+    
+    // MARK: Computed properties
 
-    // MARK: InteractorInput methods
+    // MARK: Methods
 }
 
 extension ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleName___DataManagerOutput {
-    // MARK: DataManagerOutput computed properties
+    
+    // MARK: Computed properties
 
-    // MARK: DataManagerOutput methods
+    // MARK: Methods
 }

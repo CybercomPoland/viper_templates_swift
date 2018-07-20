@@ -8,18 +8,22 @@
 
 import Foundation
 
-// Presenter to View
+/* Presenter to View */
 protocol ___VARIABLE_viperModuleName___ViewInput: class {
-    // MARK: ViewInput protocol properties
+    
+    // MARK: Properties
+    
     var viewOutput: ___VARIABLE_viperModuleName___ViewOutput? { get set }
 
-    // MARK: ViewInput protocol methods
+    // MARK: Methods
 }
 
-// View to Presenter
+/* View to Presenter */
 protocol ___VARIABLE_viperModuleName___ViewOutput: class {
-    // MARK: ViewOutput protocol properties
+    
+    // MARK: Properties
+    
     var delegate: ___VARIABLE_viperModuleName___ModuleDelegate? { get set }
 
-    // MARK: ViewOutput protocol methods
+    // MARK: Methods
 }

@@ -12,6 +12,7 @@ class ___VARIABLE_viperModuleName___ViewController: TableViewViewController {
     // MARK: outlets
 
     // MARK: ViewController properties
+    @IBOutlet weak var tableView: TableView!
     var viewOutput: ___VARIABLE_viperModuleName___ViewOutput! {
         didSet { baseViewOutput = viewOutput }
     }

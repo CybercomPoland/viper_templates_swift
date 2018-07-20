@@ -8,16 +8,18 @@
 
 import Foundation
 
-// Interactor to DataManager
+/* Interactor to DataManager */
 protocol ___VARIABLE_viperModuleName___DataManagerInput: class {
-    // MARK: DataManagerInput protocol properties
+    
+    // MARK: Properties
 
-    // MARK: DataManagerInput protocol methods
+    // MARK: Methods
 }
 
 // DataManager to Interactor
 protocol ___VARIABLE_viperModuleName___DataManagerOutput: class {
-    // MARK: DataManagerOutput protocol properties
+    
+    // MARK: Properties
 
-    // MARK: DataManagerOutput protocol methods
+    // MARK: Methods
 }
