@@ -9,7 +9,7 @@
 import Foundation
 
 /* Presenter to View */
-protocol ___VARIABLE_viperModuleName___ViewInput: class {
+protocol ___VARIABLE_viperModuleName___ViewInput: BaseViewInput {
     
     // MARK: Properties
     

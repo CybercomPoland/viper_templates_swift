@@ -8,6 +8,9 @@
 
 import UIKit
 
+protocol BaseViewInput: class {}
+class BaseViewController: UIViewController {}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

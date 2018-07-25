@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ___VARIABLE_viperModuleName___ViewController: UIViewController {
+class ___VARIABLE_viperModuleName___ViewController: BaseViewController {
     
     // MARK: Outlets
 
