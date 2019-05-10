@@ -8,10 +8,19 @@
 
 import Foundation
 
-extension ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleName___InteractorInput {
+class ___VARIABLE_viperModuleName___Interactor {
+    private (set) var dataManager: ___VARIABLE_viperModuleName___DataManagerInterface
+    weak var presenter: ___VARIABLE_viperModuleName___InteractorDelegate?
+
+    init(dataManager: ___VARIABLE_viperModuleName___DataManagerInterface) {
+        self.dataManager = dataManager
+    }
+}
+
+extension ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleName___InteractorInterface {
 
 }
 
-extension ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleName___DataManagerOutput {
+extension ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleName___DataManagerDelegate {
 
 }

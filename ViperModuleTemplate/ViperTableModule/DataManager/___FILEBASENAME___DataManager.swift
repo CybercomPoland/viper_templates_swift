@@ -8,6 +8,10 @@
 
 import Foundation
 
-extension ___VARIABLE_viperModuleName___DataManager: ___VARIABLE_viperModuleName___DataManagerInput {
+class ___VARIABLE_viperModuleName___DataManager {
+    weak var interactor: ___VARIABLE_viperModuleName___DataManagerDelegate?
+}
+
+extension ___VARIABLE_viperModuleName___DataManager: ___VARIABLE_viperModuleName___DataManagerInterface {
 
 }

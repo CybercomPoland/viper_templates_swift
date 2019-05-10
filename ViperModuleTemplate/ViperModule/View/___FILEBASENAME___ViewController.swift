@@ -9,12 +9,12 @@
 import UIKit
 
 class ___VARIABLE_viperModuleName___ViewController: UIViewController {
-    var viewOutput: ___VARIABLE_viperModuleName___ViewOutput?
+    var presenter: ___VARIABLE_viperModuleName___PresenterInterface?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setUp()
-        viewOutput?.viewDidLoad()
+        presenter?.viewDidLoad()
     }
 
     func setUp() {
@@ -22,6 +22,6 @@ class ___VARIABLE_viperModuleName___ViewController: UIViewController {
     }
 }
 
-extension ___VARIABLE_viperModuleName___ViewController: ___VARIABLE_viperModuleName___ViewInput {
+extension ___VARIABLE_viperModuleName___ViewController: ___VARIABLE_viperModuleName___PresenterDelegate {
 
 }

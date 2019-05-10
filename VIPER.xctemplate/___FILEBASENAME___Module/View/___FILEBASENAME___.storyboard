@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--viper Module Name View Controller-->
+        <!--___VARIABLE_viperModuleName___ View Controller-->
         <scene sceneID="EHV-ot-lc0">
             <objects>
                 <viewController storyboardIdentifier="___VARIABLE_viperModuleName___ViewControllerID" id="Raw-zM-mu3" customClass="___VARIABLE_viperModuleName___ViewController" customModule="ViperModuleTemplate" customModuleProvider="target" sceneMemberID="viewController">

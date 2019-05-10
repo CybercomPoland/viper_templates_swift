@@ -21,3 +21,32 @@ class ViewController: UIViewController {
     }
 
 }
+
+class TableViewViewController: UIViewController {
+    public var basePresenter: TableViewPresenterInterface?
+    func setUp() {}
+}
+
+public class TableItem {}
+
+// Presenter to View
+public protocol TableViewPresenterDelegate: class {
+    func register(reusables: [TableItem.Type])
+}
+
+public protocol TableViewPresenterInterface: class {
+    func viewDidLoad()
+}
+
+open class TableViewPresenter {
+    open weak var baseView: TableViewPresenterDelegate? {
+        fatalError("baseView getter should be implemented by subclass!!")
+    }
+
+    open func viewDidLoad() {
+    }
+}
+
+extension UITableViewController: TableViewPresenterDelegate {
+    public func register(reusables: [TableItem.Type]) { }
+}

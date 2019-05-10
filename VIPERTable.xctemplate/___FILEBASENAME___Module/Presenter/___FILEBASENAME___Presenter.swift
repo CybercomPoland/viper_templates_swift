@@ -9,16 +9,13 @@
 import Foundation
 
 class ___VARIABLE_viperModuleName___Presenter: TableViewPresenter {
-    weak var delegate: ___VARIABLE_viperModuleName___ModuleDelegate?
+    weak var moduleDelegate: ___VARIABLE_viperModuleName___ModuleDelegate?
 
     private (set) var router: ___VARIABLE_viperModuleName___Router
-    private (set) var interactor: ___VARIABLE_viperModuleName___InteractorInput
-    private (set) weak var view: ___VARIABLE_viperModuleName___ViewInput?
+    private (set) var interactor: ___VARIABLE_viperModuleName___InteractorInterface
+    private (set) weak var view: ___VARIABLE_viperModuleName___PresenterDelegate?
 
-    init(interactor: ___VARIABLE_viperModuleName___Interactor,
-         router: ___VARIABLE_viperModuleName___Router,
-         view: ___VARIABLE_viperModuleName___ViewInput?) {
-
+    init(interactor: ___VARIABLE_viperModuleName___InteractorInterface, router: ___VARIABLE_viperModuleName___Router, view: ___VARIABLE_viperModuleName___PresenterDelegate?) {
         self.interactor = interactor
         self.router = router
         self.view = view
@@ -31,7 +28,7 @@ class ___VARIABLE_viperModuleName___Presenter: TableViewPresenter {
     }
 }
 
-extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName___InteractorOutput {
+extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName___InteractorDelegate {
 
     //TODO: Handle call from interactor when data to be displayed is ready
     //func display(...) {
@@ -40,6 +37,6 @@ extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName__
     //}
 }
 
-extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName___ViewOutput {
+extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName___PresenterInterface {
 
 }
