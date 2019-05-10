@@ -15,3 +15,4 @@ cp -r *.xctemplate "${INSTALL_DIR}"
 
 echo "ViperModule successfully installed!"
 
+open "${INSTALL_DIR}"
