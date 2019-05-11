@@ -9,7 +9,7 @@
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Description</key>
-	<string>Template of new Table Viper module</string>
+	<string>Template of new Viper module</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
@@ -21,7 +21,7 @@
 	<key>SortOrder</key>
 	<string>30</string>
 	<key>Summary</key>
-	<string>Generates a new module using Viper architecture and table view.</string>
+	<string>Generates a new module using Viper architecture</string>
 	<key>Options</key>
 	<array>
 		<dict>

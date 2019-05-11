@@ -1,0 +1,21 @@
+#!/bin/sh
+
+SCRIPTPATH="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "${SCRIPTPATH}"
+
+INSTALL_DIR=~/Library/Developer/Xcode/Templates/Custom/ViperModule
+
+echo "\n Templates will be installed to ${INSTALL_DIR}"
+if [ -d "${INSTALL_DIR}" ]; then
+    rm -r "${INSTALL_DIR}"
+fi
+
+mkdir -p "${INSTALL_DIR}"
+cp -r *.xctemplate "${INSTALL_DIR}"
+
+echo " ViperModule successfully installed."
+
+echo " Opening target directory."
+open "${INSTALL_DIR}"
+
+echo " DONE.\n"

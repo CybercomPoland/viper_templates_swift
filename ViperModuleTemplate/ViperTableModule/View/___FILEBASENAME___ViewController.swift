@@ -9,17 +9,18 @@
 import UIKit
 
 class ___VARIABLE_viperModuleName___ViewController: TableViewViewController {
-    var viewOutput: ___VARIABLE_viperModuleName___ViewOutput! {
-        didSet { baseViewOutput = viewOutput }
+    var presenter: ___VARIABLE_viperModuleName___PresenterInterface? {
+        didSet { basePresenter = presenter }
     }
 
     override func setUp() {
         super.setUp()
         //Add view controller setup code here (do not use viewDidLoad!)
     }
-
 }
 
-extension ___VARIABLE_viperModuleName___ViewController: ___VARIABLE_viperModuleName___ViewInput {
-
+extension ___VARIABLE_viperModuleName___ViewController: ___VARIABLE_viperModuleName___PresenterDelegate {
+//    func register(reusables: [TableItem.Type]) {
+//
+//    }
 }

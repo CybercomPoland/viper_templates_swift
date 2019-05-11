@@ -9,11 +9,11 @@
 import Foundation
 
 // Presenter to Interactor
-protocol ___VARIABLE_viperModuleName___InteractorInput: class {
+protocol ___VARIABLE_viperModuleName___InteractorInterface: class {
 
 }
 
 // Interactor to Presenter
-protocol ___VARIABLE_viperModuleName___InteractorOutput: class {
+protocol ___VARIABLE_viperModuleName___InteractorDelegate: class {
 
 }

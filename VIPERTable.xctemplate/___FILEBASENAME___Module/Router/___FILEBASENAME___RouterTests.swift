@@ -56,7 +56,7 @@ class ___VARIABLE_viperModuleName___RouterTests: XCTestCase {
         guard getPathToStoryboard() != nil else { return false }
         let storyboard = getStoryboard()
 
-        guard let storyboardValues = storyboard.value(forKey: "identifierToNibNameMap") as? [String : Any], (storyboardValues[storyboardID] != nil) else { return false }
+        guard let storyboardValues = storyboard.value(forKey: "identifierToNibNameMap") as? [String: Any], (storyboardValues[storyboardID] != nil) else { return false }
 
         return true
     }

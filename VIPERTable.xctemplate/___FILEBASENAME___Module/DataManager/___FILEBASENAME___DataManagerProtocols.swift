@@ -9,11 +9,11 @@
 import Foundation
 
 // Interactor to DataManager
-protocol ___VARIABLE_viperModuleName___DataManagerInput: class {
+protocol ___VARIABLE_viperModuleName___DataManagerInterface: class {
 
 }
 
 // DataManager to Interactor
-protocol ___VARIABLE_viperModuleName___DataManagerOutput: class {
+protocol ___VARIABLE_viperModuleName___DataManagerDelegate: class {
 
 }
